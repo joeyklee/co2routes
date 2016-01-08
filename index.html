@@ -7,20 +7,71 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <style type="text/css">
-html, body, #map {
+#map {
+    width: 90%;
+    height: 100%;
+    min-height: 100%;
+}
+
+html, body {
     height: 100%;
 }
-/*	#map { width:100%; height:100%; }*/
 
 
 </style>
 <body>
 
-<div id="map"></div>
-<div class="container">
+
+
+	
+	<div class="container">
+
+	      <!-- Static navbar -->
+	      <nav class="navbar navbar-default">
+	        <div class="container-fluid">
+	          <div class="navbar-header">
+	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	              <span class="sr-only">Toggle navigation</span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	              <span class="icon-bar"></span>
+	            </button>
+	            <a class="navbar-brand" href="#">Vehicle Routing</a>
+	          </div>
+	          <div id="navbar" class="navbar-collapse collapse">
+	            <ul class="nav navbar-nav">
+	              <li class="active"><a href="#">Where Am I?</a></li>
+	              <li class="dropdown">
+	                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Directions <span class="caret"></span></a>
+	                <ul class="dropdown-menu">
+	                  <li><a id="sensor0108" href="#" target="blank">Sensor 0108</a></li>
+	                  <li><a id="sensor0205" href="#">Sensor 0205</a></li>
+	                  <li><a id="sensor0150" href="#">Sensor 0150</a></li>
+	                  <li><a id="sensor0151" href="#">Sensor 0151</a></li>
+	                  <li><a id="sensor1641" href="#">Sensor 1641</a></li>
+	                  <li role="separator" class="divider"></li>
+	                  <!-- <li class="dropdown-header">Nav header</li> -->
+	                  <!-- <li><a href="#">Separated link</a></li> -->
+	                  <!-- <li><a href="#">One more separated link</a></li> -->
+	                </ul>
+	              </li>
+	            </ul>
+	          </div><!--/.nav-collapse -->
+	        </div><!--/.container-fluid -->
+	      </nav>
+
+
+	</div>
+
+	<div class="container" id="map">
+		<div ></div>
+	</div>
+
+	
+		
 	
 
-	<div id="sensor0108">
+	<!-- <div id="sensor0108">
 		<h1>Joey</h1>
 		<button class="btn btn-success" target="blank">Sensor 0108</button>
 	</div>
@@ -39,17 +90,23 @@ html, body, #map {
 	<div id="sensor1641">
 		<h1>Nick</h1>
 		<button class="btn btn-success" target="blank">Sensor 1641</button>
-	</div>
+	</div> -->
 	
-</div>
+
 
 
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.min.js"></script> -->
+<script type="text/javascript"src="js/libs/d3.min.js"></script>
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script> -->
+<script type="text/javascript" src="js/libs/leaflet.js"></script>
+<script src="js/libs/L.LineUtil.PolylineDecorator.js"></script>
+<script src="js/libs/L.RotatedMarker.js"></script>
+<script src="js/libs/L.Symbol.js"></script>
+<script src="js/libs/L.PolylineDecorator.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
