@@ -35,7 +35,7 @@ $(document).ready(function() {
     		    }
     		    map.on('locationfound', onLocationFound);
     		}
-    		setInterval(update, 1000);
+    		setInterval(update, 500);
 
 
       
