@@ -15,12 +15,12 @@ In case anything happens during the drive, please do not hesitate to call.
 ## Emergency:
 	911
 
-## Vehicle Assignments:
-*
-*
-*
-*
-*
+## Sensor Assignments:
+* Andreas - 1641 (car2go)
+* Joey - 0108 (car2go)
+* Nick - 0150 ()
+* Zoran - 0151
+* Rick (or Ryan) - 0205
 
 
 ##  Preparations: 
@@ -31,7 +31,7 @@ In case anything happens during the drive, please do not hesitate to call.
 ### Snacks:
 Feel free to bring some snacks. The drive will take between 2.5 - 3 hours. I will provide bagels, croissants, and orange juice in the morning, so come on time! 
 
-### Record your gas mileage:
+### [If you're driving your own vehicle] Record your gas mileage!!!:
 SUPER IMPORTANT SO THAT WE CAN REIMBURSE YOU: Record your gas mileage before and after - joey will also take photos -- so that we can properly reimburse you for the driving. 
 
 
