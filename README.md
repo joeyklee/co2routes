@@ -4,6 +4,7 @@ IT IS IMPORTANT THAT DRIVE SAFELY AND WITHIN YOUR COMFORT ZONE. IF ANY INTERSECT
 
 ***
 
+
 # Measurement Campaign #2
 
 
@@ -37,8 +38,6 @@ Use the little web app below to see where you are on the map.
 You can select the sensor that you have (e.g. sensor 0108) and see where you are going relative to the path.
 
 The orange rectangle marks the study area bounds - please try to stay within the bounds if possible.
-
-
 
 
 ##  Preparations: 
