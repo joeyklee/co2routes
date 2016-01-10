@@ -1,5 +1,5 @@
 <CENTER>
-*** IT IS IMPORTANT THAT DRIVE SAFELY AND WITHIN YOUR COMFORT ZONE. IF ANY INTERSECTIONS OR UNPROTECTED TURNS ARE TOO BUSY OR YOU FEEL THAT THEY ARE DANGEROUS, FEEL FREE TO FIND ALTERNATIVE ROUTES.***
+IT IS IMPORTANT THAT DRIVE SAFELY AND WITHIN YOUR COMFORT ZONE. IF ANY INTERSECTIONS OR UNPROTECTED TURNS ARE TOO BUSY OR YOU FEEL THAT THEY ARE DANGEROUS, FEEL FREE TO FIND ALTERNATIVE ROUTES.
 </CENTER>
 
 ***
@@ -15,13 +15,28 @@ In case anything happens during the drive, please do not hesitate to call.
 ## Emergency:
 	911
 
-## Sensor Assignments:
-* Andreas - 1641 (car2go)
-* Joey - 0108 (car2go)
-* Zoran - 0151 (car2go)
-* Nick - 0150 (Micromet Truck)
-* Rick (or Ryan) - 0205 (Personal Vehicle)
+## Sensor Assignments and Route Instructions:
+* [Andreas - 1641 (car2go)](routes/route_1641.md)
+	* ![](img/1641.png) 	
+* [Joey - 0108 (car2go)](routes/route_0108.md)
+ 	* ![](img/0108.png) 	
+* [Zoran - 0151 (car2go)](routes/route_0151.md)
+ 	* ![](img/0151.png)
+* [Nick - 0150 (Micromet Truck)](routes/route_0150.md)
+ 	* ![](img/0150.png)
+* [Rick (or Ryan) - 0205 (Personal Vehicle)](routes/route_0205.md)
+ 	* ![](img/0205.png)
 
+
+## Real-time GPS Location:
+
+Use the little web app below to see where you are on the map. 
+
+[http://joeyklee.github.io/co2routes/](http://joeyklee.github.io/co2routes/)
+
+You can select the sensor that you have (e.g. sensor 0108) and see where you are going relative to the path.
+
+The orange rectangle marks the study area bounds - please try to stay within the bounds if possible.
 
 
 
@@ -69,7 +84,7 @@ SUPER IMPORTANT SO THAT WE CAN REIMBURSE YOU: Record your gas mileage before and
 * You can use your ipad OR Coordinate with Joey to pick up the car in the morning.
 
 
-### 10:00 AM - Go to the meeting place at the loading dock parking lot of MCML (MacMillan / land and food systems):
+### 9:30 AM - Go to the meeting place at the loading dock parking lot of MCML (MacMillan / land and food systems):
 
 Please be at the [loading docks/parking area of MCML](https://www.google.ca/maps/place/49%C2%B015'41.0%22N+123%C2%B015'05.0%22W/@49.2613759,-123.2519335,134m/data=!3m2!1e3!4b1!4m2!3m1!1s0x0:0x0?hl=en) by 10:00 AM. We will set up/install the sensors here.
 
@@ -100,7 +115,7 @@ Images:
 ![](img/meet2.png)
 
 
-### Go! (~11:00am)
+### Go! (~10:30am)
 Each of us will go our separate ways to start measuring along our prescribed transects until the route is completed. Each of the routes will lead you back to the meeting point, David Thompson Secondary School. See transect assignments above. 
 
 Each of us will be driving approximately 70 - 80 km. Depending on traffic, this should take about 3 hours. 
