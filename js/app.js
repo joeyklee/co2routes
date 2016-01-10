@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var map = L.map('map');
+    var map = L.map('map',{zoom: 17, center: new L.latLng([49.23,-123.15]) });
 
     L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -19,23 +19,32 @@ $(document).ready(function() {
     
 
 
-    (function init() {
+    // (function init() {
 
-    		var marker = L.circle([0, 0], 10).addTo(map);
+    		// var marker = L.circle([0, 0], 10).addTo(map);
 
-    		function update() {
-    		    map.locate({
-    		        setView: true,
-    		        maxZoom: 16
-    		    });
-    		    function onLocationFound(e) {
-    		        // console.log(e.latlng);
-    		        var radius = e.accuracy / 2;
-    		        marker.setLatLng(e.latlng, radius);
-    		    }
-    		    map.on('locationfound', onLocationFound);
-    		}
-    		setInterval(update, 100);
+    		// function update() {
+    		//     map.locate({
+    		//         setView: true,
+    		//         maxZoom: 16
+    		//     });
+    		//     function onLocationFound(e) {
+    		//         // console.log(e.latlng);
+    		//         var radius = e.accuracy / 2;
+    		//         marker.setLatLng(e.latlng, radius);
+    		//     }
+    		//     map.on('locationfound', onLocationFound);
+    		// }
+    		// setInterval(update, 100);
+
+            map.addControl( new L.Control.Gps({autoActive:true, autoCenter: true, style: {              //default L.CircleMarker styles
+            radius: 15,
+            weight: 2,
+            color: '#c20',
+            opacity: 1,
+            fillColor: '#f23',
+            fillOpacity: 0.75
+        },}) );//inizialize control
 
 
       
@@ -175,7 +184,7 @@ $(document).ready(function() {
 
 
 
-        })(); // end init()
+        // })(); // end init()
 
 
     // routing instructions
