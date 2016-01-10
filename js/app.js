@@ -189,25 +189,28 @@ $(document).ready(function() {
 
     // routing instructions
     $("#sensor0108").click(function() {
-        getDirections("data/0108_1.geojson");
+        // getDirections("data/0108_1.geojson");
+        window.open("https://github.com/joeyklee/co2routes/blob/gh-pages/routes/route_0108.md");
     })
 
     $("#sensor0150").click(function() {
-
-        getDirections("data/0150_1.geojson");
+        window.open("https://github.com/joeyklee/co2routes/blob/gh-pages/routes/route_0150.md");
+        // getDirections("data/0150_1.geojson");
     })
 
     $("#sensor0151").click(function() {
-
-        getDirections("data/0151_1.geojson");
+        window.open("https://github.com/joeyklee/co2routes/blob/gh-pages/routes/route_0151.md");
+        // getDirections("data/0151_1.geojson");
     })
 
     $("#sensor0205").click(function() {
-        getDirections("data/0205_1.geojson");
+        // getDirections("data/0205_1.geojson");
+        window.open("https://github.com/joeyklee/co2routes/blob/gh-pages/routes/route_0205.md");
     })
 
     $("#sensor1641").click(function() {
-        getDirections("data/1641_1.geojson");
+        // getDirections("data/1641_1.geojson");
+        window.open("https://github.com/joeyklee/co2routes/blob/gh-pages/routes/route_1641.md");
     })
 
     function getDirections(path2file) {
