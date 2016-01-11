@@ -1,9 +1,15 @@
 $(document).ready(function() {
 
-    // var map = L.map('map', {
-    //     zoom: 17,
-    //     center: new L.latLng([49.23, -123.15])
-    // });
+    var map = L.map('map', {
+        zoom: 17,
+        center: new L.latLng([49.23, -123.15])
+    });
+
+    var CartoDB_Positron = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+        subdomains: 'abcd',
+        maxZoom: 19
+    }).addTo(map);
 
     // L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     //     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -14,10 +20,10 @@ $(document).ready(function() {
     //     zoomControl: false
     // }).setView([49.26, -123.10], 17);
 
-    L.mapbox.accessToken = 'pk.eyJ1Ijoiam9leWtsZWUiLCJhIjoiMlRDV2lCSSJ9.ZmGAJU54Pa-z8KvwoVXVBw';
-    var map = L.mapbox.map('map', 'mapbox.streets',{
-        zoomControl: true
-    }).setView([49.26, -123.10], 13);
+    // L.mapbox.accessToken = 'pk.eyJ1Ijoiam9leWtsZWUiLCJhIjoiMlRDV2lCSSJ9.ZmGAJU54Pa-z8KvwoVXVBw';
+    // var map = L.mapbox.map('map', 'mapbox.streets',{
+    //     zoomControl: true
+    // }).setView([49.26, -123.10], 13);
 
 
     // var MapBox = L.tileLayer('http://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -63,7 +69,7 @@ $(document).ready(function() {
 
     // $(function() {
 
-    //     d3.json('data/1641_1.geojson', function(err, data){
+    //     d3.json('data/0205_1.geojson', function(err, data){
     //             console.log(data);
 
     //             var coords = [];
