@@ -61,56 +61,56 @@ $(document).ready(function() {
 
     }); // end d3
 
-    $(function() {
+    // $(function() {
 
-        d3.json('data/1641_1.geojson', function(err, data){
-                console.log(data);
+    //     d3.json('data/1641_1.geojson', function(err, data){
+    //             console.log(data);
 
-                var coords = [];
+    //             var coords = [];
 
-                data.features.forEach(function(val){
-                    // console.log(val.geometry.coordinates);
-                    val.geometry.coordinates.forEach(function(d){
-                        // console.log(d);
-                        coords.push([d[1], d[0]]);
-                    })
+    //             data.features.forEach(function(val){
+    //                 // console.log(val.geometry.coordinates);
+    //                 val.geometry.coordinates.forEach(function(d){
+    //                     // console.log(d);
+    //                     coords.push([d[1], d[0]]);
+    //                 })
 
-                    // val.geometry.coordinates.forEach(function(d){
-                    //     // console.log(d);
-                    //     // coords.push([d[1], d[0]]);
+    //                 // val.geometry.coordinates.forEach(function(d){
+    //                 //     // console.log(d);
+    //                 //     // coords.push([d[1], d[0]]);
 
-                    //     d.forEach(function(item){
-                    //         coords.push([item[1], item[0]]);
+    //                 //     d.forEach(function(item){
+    //                 //         coords.push([item[1], item[0]]);
 
-                    //         // console.log(item);
-                    //     })
-                    // })
-                })
+    //                 //         // console.log(item);
+    //                 //     })
+    //                 // })
+    //             })
 
-                // console.log( coords.slice(75, 200));
+    //             // console.log( coords.slice(75, 200));
 
-                var polyline = L.polyline(coords, {null: 'red'}).addTo(map);
+    //             var polyline = L.polyline(coords, {null: 'red'}).addTo(map);
             
 
-        $( "#slider-range" ).slider({
-          range: true,
-          min: 0,
-          max: coords.length,
-          values: [ 0, coords.length ],
-          slide: function( event, ui ) {
-            $( "#amount" ).val( "#" + ui.values[ 0 ] + " - #" + ui.values[ 1 ] );
+    //     $( "#slider-range" ).slider({
+    //       range: true,
+    //       min: 0,
+    //       max: coords.length,
+    //       values: [ 0, coords.length ],
+    //       slide: function( event, ui ) {
+    //         $( "#amount" ).val( "#" + ui.values[ 0 ] + " - #" + ui.values[ 1 ] );
 
-            polyline.setLatLngs(coords.slice(ui.values[0], ui.values[1]));
+    //         polyline.setLatLngs(coords.slice(ui.values[0], ui.values[1]));
 
-          }
-        });
+    //       }
+    //     });
 
 
-        $( "#amount" ).val( "#" + $( "#slider-range" ).slider( "values", 0 ) +
-          " - #" + $( "#slider-range" ).slider( "values", 1 ) );
+    //     $( "#amount" ).val( "#" + $( "#slider-range" ).slider( "values", 0 ) +
+    //       " - #" + $( "#slider-range" ).slider( "values", 1 ) );
 
-        })
-      });
+    //     })
+    //   });
 
 
     var way_1641 = L.layerGroup();
