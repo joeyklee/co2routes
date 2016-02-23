@@ -90,17 +90,17 @@ You can download the app [here](https://www.car2go.com/en/austin/car2go-apps/) -
 	* Each of us will be driving approximately 70 - 80 km. Depending on traffic, this should take about 3 hours. 
 	* **If you haven't completed your route by 2:00 PM, please return to the School**.
  
- 6. **2:30 - Meet Back at David Thomson Secondary School**
+6. **2:30 - Meet Back at David Thomson Secondary School**
  	* ** we will leave the sensors running side by side for 5 minutes to determine the drift**
  
- 7. **2:45 - Go Free**
+7. **2:45 - Go Free**
  	* Go back to UBC or Go free
  
- 8. **Make sure to end your trip**
+8. **Make sure to end your trip**
  
  	* @Andreas and @Kelsey - we will have to make sure you end your trip in a wi-fi zone or tethered to my wifi.
  
- 9. **PARTYYY!!!** (figuratively)
+9. **PARTYYY!!!** (figuratively)
  
  
  
@@ -120,7 +120,8 @@ You can download the app [here](https://www.car2go.com/en/austin/car2go-apps/) -
 * [Wes - 0205 (Personal Vehicle)](routes/route_0205.md)
  	* ![](img/0205.png)
 
- 
+NOTE: You are only to use the Micrometeorology Group Car2Go account of Experiments coordinated by the lab. Any misuse of the account will result in disciplinary action. 
+
 <br>
 *** 
 <br>
