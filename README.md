@@ -25,13 +25,15 @@ You can download the app [here](https://www.car2go.com/en/austin/car2go-apps/) -
 
 # Plan Overview
 
+![](img/diagram.png)
+
 ## Drivers + co-pilots:
 
 | Driver  | Co-pilot |
 |---------|----------|
-| Andreas | ?        |
-| Wes     | Ryan     |
-| Joey    | Natasha  |
+| Andreas | Natasha      |
+| Wes     | Ryan Buchanan    |
+| Joey    | Ryan Young (photographer)  |
 | Kelsey  | Nick     |
 | Julie   | Caitlin  |
 
@@ -41,6 +43,7 @@ You can download the app [here](https://www.car2go.com/en/austin/car2go-apps/) -
 * **If you are co-pilot - meaning you are not driving, but helping with routing and emotional support - please go to**:
 	* the [Macmillan Loading Dock](https://www.google.ca/maps/place/49%C2%B015'40.9%22N+123%C2%B015'05.2%22W/@49.2613654,-123.2523162,324m/data=!3m2!1e3!4b1!4m2!3m1!1s0x0:0x0?hl=en) at UBC 
 	* by 9:30 AM.
+	* **It is your job as the co-pilot to read the directions and direct the driver. It is also your responsibility to re-direct the driver in case the directions are not navigable (e.g. a one way street, etc.)**
 
 
 ## Drivers
