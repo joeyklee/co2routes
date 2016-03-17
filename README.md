@@ -112,15 +112,15 @@ You can download the app [here](https://www.car2go.com/en/austin/car2go-apps/) -
 <br>
 
 ## Sensor Assignments and Route Instructions:
-* [Andreas - 1641 (car2go)](routes/route_1641.md)
+* [Andreas + Natasha - 1641 (car2go)](routes/route_1641.md)
 	* ![](img/1641.png) 	
 * [Joey - 0108 (car2go)](routes/route_0108.md)
  	* ![](img/0108.png) 	
-* [Julie - 0151 (car2go)](routes/route_0151.md)
+* [Julie + Yimei- 0151 (car2go)](routes/route_0151.md)
  	* ![](img/0151.png)
-* [Kelsey - 0150 (Micromet Truck)](routes/route_0150.md)
+* [Ryan + Nick - 0150 (Car2Go)](routes/route_0150.md)
  	* ![](img/0150.png)
-* [Wes - 0205 (Personal Vehicle)](routes/route_0205.md)
+* [Wes + Caitlin - 0205 (Car2Go)](routes/route_0205.md)
  	* ![](img/0205.png)
 
 NOTE: You are only to use the Micrometeorology Group Car2Go account of Experiments coordinated by the lab. Any misuse of the account will result in disciplinary action. 
