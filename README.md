@@ -32,10 +32,10 @@ You can download the app [here](https://www.car2go.com/en/austin/car2go-apps/) -
 | Driver  | Co-pilot |
 |---------|----------|
 | Andreas | Natasha      |
-| Wes     | Ryan Buchanan    |
-| Joey    | Ryan Young (photographer)  |
-| Kelsey  | Nick     |
-| Julie   | Caitlin  |
+| Wes     | Caitlin    |
+| Joey    |   |
+|Ryan Buchanan  | Nick     |
+| Julie   | Yimei  |
 
 
 
