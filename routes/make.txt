@@ -9,3 +9,19 @@ markdown-pdf --paper-orientation 'landscape' /Users/Jozo/Dropbox/_Projects/_GitH
 markdown-pdf --paper-orientation 'landscape' /Users/Jozo/Dropbox/_Projects/_GitHub/joeyklee.github.io/co2routes/routes/0151-static/route0151.md 
 
 markdown-pdf --paper-orientation 'landscape' /Users/Jozo/Dropbox/_Projects/_GitHub/joeyklee.github.io/co2routes/routes/0108-static/route0108.md 
+
+______
+
+croppped
+
+markdown-pdf --paper-orientation 'landscape' /Users/Jozo/Dropbox/_Projects/co2routes/routes/0150-static/cropped/route0150.md
+
+
+markdown-pdf --paper-orientation 'landscape' /Users/Jozo/Dropbox/_Projects/co2routes/routes/0151-static/cropped/route0151.md
+
+
+cd /Users/Jozo/Dropbox/_Projects/co2routes/routes/1641-static/cropped
+markdown-pdf --paper-orientation 'landscape' /Users/Jozo/Dropbox/_Projects/co2routes/routes/1641-static/cropped/route1641.md
+
+cd /Users/Jozo/Dropbox/_Projects/co2routes/routes/0205-static/cropped
+markdown-pdf --paper-orientation 'landscape' /Users/Jozo/Dropbox/_Projects/co2routes/routes/0205-static/cropped/route0205.md
