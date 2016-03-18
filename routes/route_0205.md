@@ -1,4 +1,4 @@
-# Thea: Route 0205
+#Route 0205
 
 ## Route Instructions:
 1. **HEAD SOUTH**ON COMMERCIAL ST
